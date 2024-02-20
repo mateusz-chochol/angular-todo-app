@@ -1,0 +1,19 @@
+header {
+  height: 8rem;
+  width: 25rem;
+  padding: 1rem;
+  border-bottom: 1px solid #e0e0e0;
+
+  .title-with-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  input {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    border: 1px solid #e0e0e0;
+  }
+}

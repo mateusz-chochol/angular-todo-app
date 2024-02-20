@@ -1,0 +1,7 @@
+<div *ngIf="todo">
+  <span>{{ todo.text }}</span>
+  <div class="todo-controls">
+    <input title="is-completed" type="checkbox" (change)="onToggle()" [checked]="todo.isCompleted" />
+    <app-button text="Delete" (onClick)="onDeleteClick()"></app-button>
+  </div>
+</div>

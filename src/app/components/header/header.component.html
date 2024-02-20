@@ -1,0 +1,9 @@
+<header>
+  <div class="title-with-button">
+    <h1>{{ title }}</h1>
+    <app-button text="Add todo" (onClick)="handleAddTodo()"></app-button>
+  </div>
+  <div>
+    <input type="text" placeholder="New todo text" (input)="changeNewTodoText($event)" [(ngModel)]="newTodoText"/>
+  </div>
+</header>
